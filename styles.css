@@ -1,0 +1,61 @@
+body {
+    background-color: #000; /* black background */
+    color: #fff; /* white text */
+    font-family: Arial, sans-serif;
+    font-size: 25px; /* Default font size */
+}
+
+header {
+    background-color: #1f0101; /* dark red */
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255); /* dark blue */
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333; /* dark gray */
+    padding: 10px;
+    text-align: center;
+}
+.game {
+    margin-bottom: 20px;
+}
+
+.game img {
+    max-width: 500px; /* Set the maximum width for the images */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure proper layout */
+    margin-bottom: 10px; /* Add some space between the images */
+}
+
+.game-image {
+    max-width: 200px; /* Adjust the width as needed */
+    height: auto;
+}
+
+p {
+    font-size: 20px; /* Increase font size for paragraphs */
+}
+.center-text {
+    text-align: center; /* Center align the text within the div */
+    font-size: 30px; /* Default font size */
+}
+
